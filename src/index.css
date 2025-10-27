@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+/* בסיס לאפליקציה */
+:root { --chrome: rgba(255,255,255,0.6); }
+html, body, #root { height: 100%; }
+
+body {
+  margin: 0;
+  background: #000;
+  color: #fff;
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial,
+               "Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+
+/* שלא תהיה הגבלה על רוחב טיפוגרפיה */
+.prose { max-width: none; }
